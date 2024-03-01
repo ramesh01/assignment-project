@@ -76,7 +76,7 @@ const Home = () => {
 								<TableRow
 									hover
 									key={person.name}
-									sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
+									sx={{ "&:last-child td, &:last-child th": { border: 0 }, cursor: "pointer" }}
 									onClick={() => handleRowClick(person.id!)}
 								>
 									<TableCell align="center">{person.name}</TableCell>
